@@ -1,3 +1,3 @@
 # tk17
 tk17 Guide Content
-Meh.
+Content for the /tk17/ gist.

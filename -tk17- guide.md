@@ -13,11 +13,12 @@ If you want to download, go straight to Section 3.
 
 <p align="center">The guide is separated into several sections:</p>
 
-> [Section 1: Computer Requirements](#a)  
-> [Section 2: Install Instructions and Download](#b)  
-> [Section 3: Ingame Help (Q/A about content)](#c)  
-> [Section 4: Technical Help (Q/A about files and common issues)](#d)  
-> [Section 5: Useful Info](#e)  
+> [Section 1: Glossary](#z)  
+> [Section 2: Computer Requirements](#a)  
+> [Section 3: Install Instructions and Download](#b)  
+> [Section 4: Ingame Help (Q/A about content)](#c)  
+> [Section 5: Technical Help (Q/A about files and common issues)](#d)  
+> [Section 6: Useful Info](#e)  
 
 ---
 Ya boi forgot markdown language over the hiatus. Great. Expect me to update this soon but not now.
@@ -41,6 +42,30 @@ Modsgarden: http://modsgarden.cc
 Legacy Pastebin (tpi/tepiai): https://pastebin.com/9KyCLnqX   
 Legacy(er) Pastebin (GiveHerTheD): http://pastebin.com/PfVEFQ23   
 Legacy(est) Pastebin (CaptainNegative): http://pastebin.com/GkhhjXwp
+
+---
+<h2><p align="center"><a name="z">Glossary of TK Terms:</a></p></h2>
+
+- TheKlub17
+
+TK17 is a fork of an old sex sim. For legal reasons, we can't name it. It is much improved in terms of content and customizability compared to its former base, and is completely free.
+
+- Hook/Reshade/SweetFX
+
+These "plugins" inject shader parameters into the Direct3D API to modify the "look" of games. This is what users of TK17 use to make their games look good. In honor of the brainlet anon who posted on Valentine's Day-eve, I wrote a small section on how to make TK17 look good.
+
+- Modsgarden
+
+This website is the central hub of TK17. As stated in this guide, it is highly recommended to register here.
+
+- VX/R9X/7.5
+
+These denote the version number of the TK17 application. 7.5 is the base TK17 game version. VX is an experimental update that adds new features, along with backports of features from the "original" game. R9X is a version of VX modified to be more mod-friendly.
+**HOWEVER, keep in mind that VX/R9X are not recommended for first-time users, because full backwards compatibility has not been reached yet.**
+
+- namefags on the threads
+
+These guys are also on MG, go buy them a beer or something. Most of them have contributed well to the community.
 
 ---
 
@@ -221,7 +246,7 @@ Many mods are organised so that they are usable with JSGME. You may however, hav
 > └─Models (I know, the ModelXXXX naming scheme is wierd. Identify the models by looking at their icons)  
 > **Screenshots** (This is where screenshots taken with the ingame button end up. Hook or reshade screenshots will be inside the binaries folder)  
  
-- WHERE DO I PUT .TXX FILES (That includes global bodymods, rooms, repacked .txx, and addons in general)?  
+- WHERE DO I PUT .TXX MOD FILES (That includes global bodymods, rooms, repacked .txx, and addons in general)?  
 
 (Tk17 Install)/Archives/2.114.001
  
@@ -308,6 +333,10 @@ This is because the pose author did not make the pose with the heights of the ch
 - HOW DO I CHANGE THE SIZE/POSITION OF WIGS?/WHY IS MY HAIR CLIPPING INTO MY MODEL?  
 
 They are treated as hats, so go into the hairsizer tab and modify the values from there. These do not save, so keep that in mind. Hairsizer has the ability to wildy change hair position, hence floating or clipping hair.
+
+- HOW DO I MAKE MY GAME LOOK GOOD?
+
+First of all, refer to the Hook5 instructions on the top of the guide. Follow the install and refer to both the install instructions and the Hook5 hotkeys section below. Second, install SweetFX or Reshade, and mess around with the shaders. Also refer to MG for shared installs of graphics mods. Keep in mind that you should do this while being mindful of your PC specifications, as even the graphics setups used in TK can be demanding. Even to a modern midrange GPU.
 
 BTW, IF YOU USE TK4R, HERE IS A INSTALL SPECIFIC PASTEBIN FOR IT:  
 (https://pastebin.com/3RdM0nk9)
